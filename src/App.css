@@ -1,0 +1,126 @@
+/* GLOBALS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-optical-sizing: auto;
+    background-color: #ecf9fd;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* FORM */
+form {
+    background-color: #f4f8fe;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.personal-info input,
+.personal-info textarea,
+.personal-info select {
+    width: 100%;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    font: inherit;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.personal-info textarea {
+    resize: none;
+    padding: 10px;
+}
+
+.personal-info label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.reply .form-control-input {
+    display: flex;
+    gap: 10px;
+
+    margin-bottom: 5px;
+}
+
+.reply .form-control-input label,
+.reply .form-control-input input {
+    display: inline-block;
+    margin: 0;
+}
+
+.reply .form-control-input:last-child {
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.clear,
+.submit {
+    font: inherit;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px outset black;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #eee;
+    color: #252d43;
+}
+
+.clear:hover {
+    background-color: #ddd;
+    color: #252d43;
+}
+
+.submit {
+    background-color: #252d43;
+    color: #fff;
+}
+
+.submit:hover {
+    background-color: #364262;
+    color: #fff;
+}
+
+/* FOOTER */
+footer .container {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
