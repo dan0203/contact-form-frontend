@@ -11,7 +11,7 @@ const Form = () => {
     const [terms, setTerms] = useState(false);
 
     const sendData = async data => {
-        const response = await axios.post(import.meta.env.VITE_API_URL, data);
+        const response = await axios.post(`${import.meta.env.VITE_API_URL}/contact-form`, data);
         // const response = await axios.post('http://localhost:3000/contact-form', data);
 
         // console.log(response);
